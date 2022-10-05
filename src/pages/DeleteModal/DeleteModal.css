@@ -1,0 +1,41 @@
+.DeleteModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(240, 248, 255, 0.438);
+    display: flex;
+    justify-content: center;
+}
+.DeleteModal--div{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 5px;
+    border: solid 2px green;
+    border-radius: 5%;
+    height: fit-content;
+    margin: auto;
+}
+.DeleteModal--divImage{
+    width: 135px;
+    display: flex;
+    justify-content: center;
+}
+.DeleteModal--image{
+    max-width: 96%;
+    border-radius: 7%;
+    margin: auto;
+}
+.DeleteModal--divInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 135px;
+}
+.DeleteModal--name__label, .DeleteModal--creator__label{
+    color: rgb(4, 219, 4)
+}
+.DeleteModal--name, .DeleteModal--creator{
+    font-weight: bold;
+}

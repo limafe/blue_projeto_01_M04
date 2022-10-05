@@ -1,0 +1,28 @@
+.Login{
+    width: 100vw;
+}
+.Login--form{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    border-radius: 7%;
+    border: solid 1.5px green;
+}
+.Login--input{
+    height: 30px;
+    width: 300px;
+}
+.Login--divButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Login--button{
+    width: 100px;
+}
+.Login--button:hover{
+    background-color: rgb(0, 231, 69);
+}

@@ -1,0 +1,28 @@
+.Register{
+    width: 100vw;
+}
+.Register--form{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    border-radius: 7%;
+    border: solid 1.5px green;
+}
+.Register--input{
+    height: 30px;
+    width: 300px;
+}
+.Register--divButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Register--button{
+    width: 100px;
+}
+.Register--button:hover{
+    background-color: rgb(0, 231, 69);
+}

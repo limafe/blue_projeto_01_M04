@@ -1,0 +1,20 @@
+.Characters{
+    width: 98vw;
+}
+.Characters--divButton{
+    width: 98%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Characters--button{
+    margin: 90px 0 70px 0 ;
+}
+.Characters--button:hover{
+    background-color: rgb(0, 231, 69);
+}
+.Characters--cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

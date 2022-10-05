@@ -1,0 +1,29 @@
+.Card{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 5px;
+    border: solid 2px green;
+    border-radius: 5%;
+}
+.Card--divImage{
+    width: 135px;
+    display: flex;
+    justify-content: center;
+}
+.Card--image{
+    max-width: 96%;
+    border-radius: 7%;
+    margin: auto;
+}
+.Card--divInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 135px;
+}
+.Card--name__label, .Card--creator__label{
+    color: rgb(4, 219, 4)
+}
+.Card--name, .Card--creator{
+    font-weight: bold;
+}

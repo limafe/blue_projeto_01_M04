@@ -1,4 +1,4 @@
-const baseUrl = "https://blue-projeto-01-m04.vercel.app/";
+const baseUrl = "https://api-rick-and-morty-blueedtech.onrender.com/docs";
 
 export const Api = {
   login: async (userBody) => {

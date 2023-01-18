@@ -1,4 +1,4 @@
-const baseUrl = "https://rick-and-morty-felipe.herokuapp.com";
+const baseUrl = "https://blue-projeto-01-m04.vercel.app/";
 
 export const Api = {
   login: async (userBody) => {

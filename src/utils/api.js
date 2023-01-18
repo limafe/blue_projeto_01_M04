@@ -1,4 +1,4 @@
-const baseUrl = "https://api-rick-and-morty-blueedtech.onrender.com/docs";
+const baseUrl = "https://diarioapi.onrender.com";
 
 export const Api = {
   login: async (userBody) => {
